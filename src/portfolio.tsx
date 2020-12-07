@@ -1,10 +1,10 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'Username',
-	title: 'Hello I\'m Username',
-	subTitle: emoji("subtitle ❤"),
-	role: "Your role",
+	username: 'Kiyoung Eom',
+	title: 'Hello, I\'m Kiyoung Eom',
+	subTitle: emoji("Over 10+ years experienced ❤"),
+	role: "Software Developer",
 	resumeLink: "Your resume link... google drive or something else",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
@@ -14,90 +14,110 @@ export const greeting = {
 export const socialMediaLinks = {
 	// IMPORTANT
 	// if you don't have, change value to blank or false!! DO NOT DELETE!
-	github: 'Your github link',
-	linkedin: 'Your linkedin link',
-	email: 'your email link',
-	facebook: 'Your facebook link',
-	twitter: "Your twitter link",
-	instagram: "Your instagram link",
-	medium: 'Your medium link',
-	stackoverflow: 'Your stackoverflow link'
+	github: '',
+	linkedin: '',
+	email: 'tomoru5@naver.com',
+	facebook: '',
+	twitter: "",
+	instagram: "",
+	medium: '',
+	stackoverflow: ''
 };
 
 export const skills = {
 	title: emoji("I Can Do ⚡"),
-	subTitle: "subtitle for skill",
+	subTitle: "Skills",
 	describeSkills: [
-		emoji("✔ describe first"),
-		emoji("✔ describe second"),
-		emoji("✔ describe third"),
-		emoji("✔ describe forth"),
-		emoji("✔ describe fifth"),
 	],
 	// IMPORTANT
 	// You need to find className for font-awesome icon
 	// Go to https://fontawesome.com/ and search icon
 	lists: [
-		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 80},
-		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
-		{fontAwesome: "fab fa-js", text: "JS", proficiency: 70},
-		{fontAwesome: "fab fa-sass", text: "Sass", proficiency: 30},
-		{fontAwesome: "fab fa-react", text: "React", proficiency: 60},
-		{fontAwesome: "fab fa-aws", text: "AWS", proficiency: 20},
+		// {fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 80},
+		// {fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
+		// {fontAwesome: "fab fa-js", text: "JS", proficiency: 70},
+		// {fontAwesome: "fab fa-sass", text: "Sass", proficiency: 30},
+		// {fontAwesome: "fab fa-react", text: "React", proficiency: 60},
+		// {fontAwesome: "fab fa-aws", text: "AWS", proficiency: 20},
+		{fontAwesome: "", text: ".Net", proficiency: 80},
+		{fontAwesome: "", text: "SQL DB", proficiency: 70},
+		{fontAwesome: "", text: "JS", proficiency: 40},
+		{fontAwesome: "", text: "AWS", proficiency: 30},
+		{fontAwesome: "", text: "Azure", proficiency: 40},
 	],
 	view: true
 };
 
 export const experience = {
-	title: "Work Experience",
+	title: emoji("Work Experience ⌛"),
 	lists: [
 		{
-			date: "2018.03~",
-			company: "Google",
-			role: "Front-End Developer",
+			date: "2020.09 ~ 2020.12",
+			company: "Endalgo",
+			role: "Back-End, .NET Core, MS-SQL, EFCore, Azure",
 		},
 		{
-			date: "test",
-			company: "test",
-			role: "test",
+			date: "2019.08 ~ 2020.09",
+			company: "Trenbe",
+			role: "Crawling Bot",
 		},
 		{
-			date: "test",
-			company: "test",
-			role: "test",
+			date: "2019.03 ~ 2019.08",
+			company: "eSellers",
+			role: "Crawling Bot",
 		},
 		{
-			date: "test",
-			company: "test",
-			role: "test",
+			date: "2018.09 ~ 2019.01",
+			company: "Geminis",
+			role: "Back-End",
 		},
 		{
-			date: "test",
-			company: "test",
-			role: "test",
-		}
+			date: "2016.09 ~ 2018.06",
+			company: "KPNP",
+			role: "Windows Application",
+		},
+		{
+			date: "2013.10 ~ 2016.07",
+			company: "TFSolution",
+			role: "Windows Application",
+		},
+		{
+			date: "2010.12 ~ 2013.09",
+			company: "AwooSystem",
+			role: "Windows Application",
+		},
+		{
+			date: "2010.05 ~ 2010.12",
+			company: "Xray21",
+			role: "Windows Application",
+		},
 	],
 	view: true
 }
 
 export const openSourceProjects = {
 	title: emoji("Open Source Projects 💻"),
-	view: true
+	view: false
 }
 
 export const projects = {
 	title: emoji("Projects 💻"),
-	subTitle: "subtitle for projects",
+	subTitle: "Recent projects",
 	lists: [
 		{
-			title: "Project1",
-			desc: "very very very very very very very very very very very very very very long very long description for clamp testing",
-			url: "#"
+			title: "Endalgo",
+			desc: "Soccer community platform. Developed APIs and Admin site",
+			url: "https://www.endalgo.com"
 		},
 		{
-			title: "Project2",
-			desc: "description",
-			url: "#"
+			title: "Trenbe",
+			desc: "Purchasing agent service. Developed crawling bots to find luxury goods around the world",
+			url: "https://mag.trenbe.com/trenbot"
+		},
+		{
+			title: "KPNP",
+			desc: "Intergreted sports results system. Developed entire results system.",
+			url: "https://kpnp.net/21"
 		}
 	],
 	view: true
@@ -120,7 +140,7 @@ export const achievements = {
 			desc: "I'll try harder!"
 		},
 	],
-	view: true
+	view: false
 };
 
 export const blogs = {
@@ -138,12 +158,12 @@ export const blogs = {
 			url: "#"
 		},
 	],
-	view: true
+	view: false
 }
 
 export const contactInfo = {
 	title: "Contact To Me! 📞",
-	subTitle: "subtitle for contact",
-	introduce: emoji("your introduce❤"),
+	subTitle: "Feel free to contact me.",
+	introduce: emoji("tomoru5@naver.com❤"),
 	view: true
 }
